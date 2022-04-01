@@ -59,3 +59,15 @@ Caso a regra seja quebrada considere o valor “NOME INVALIDO”.
  O método deve retornar: 
  “Total atualizado, 
  foi considerado o valor de desconto: <valor do desconto>”.*/
+
+ namespace AgenciaDeViagens
+ {
+     public class Program
+     {
+        public static void Main(string[] args)
+        {
+            var seuPacote = new SeuPacote();
+            seuPacote.MontarPacote();
+        }
+     }
+ }
